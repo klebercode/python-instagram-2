@@ -1,14 +1,16 @@
 #!/usr/bin/env python
 from setuptools import setup, find_packages
 
-setup(name="python-instagram",
-      version="1.3.2",
-      description="Instagram API client",
-      license="MIT",
-      install_requires=["simplejson","httplib2","six"],
-      author="Instagram, Inc",
-      author_email="apidevelopers@instagram.com",
-      url="http://github.com/Instagram/python-instagram",
-      packages = find_packages(),
-      keywords= "instagram",
-      zip_safe = True)
+setup(
+    name="python-instagram-2",
+    version="1.3.3.b",
+    url="http://github.com/klebercode/python-instagram-2",
+    license="MIT License",
+    author="Kleber Soares",
+    author_email="kleberss@gmail.com",
+    keywords="instagram",
+    description="Instagram API client",
+    packages=find_packages(),
+    install_requires=["simplejson", "httplib2", "six"],
+    zip_safe=True,
+)
